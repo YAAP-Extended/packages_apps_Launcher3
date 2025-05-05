@@ -142,7 +142,6 @@
             android:summary="@string/pref_themed_icons_summary"
             android:persistent="true" />
 
-<!--
         <com.android.launcher3.settings.preferences.CustomSeekBarPreference
             android:key="pref_app_drawer_opacity"
             android:title="@string/background_opacity_title"
@@ -151,7 +150,7 @@
             android:min="0"
             settings:units="%"
             android:defaultValue="100" />
--->
+
     </androidx.preference.PreferenceCategory>
 
     <androidx.preference.PreferenceCategory
