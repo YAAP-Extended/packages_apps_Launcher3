@@ -49,8 +49,8 @@
     <string name="dock_search_summary">Панель пошуку в док-панелі</string>
 
     <!-- Kill App recents action shortcut -->
-    <string name="recent_task_option_kill_app">Зняти</string>
-    <string name="recents_app_killed">Додаток знято</string>
+    <string name="recent_task_option_kill_app">Вбити</string>
+    <string name="recents_app_killed">Застосунок здох</string>
 
     <!-- button string shown pause work profile -->
     <string name="work_apps_pause_btn_text_calyx">Вимкнути робочі програми</string>
@@ -95,4 +95,8 @@
     <string name="category_icon">Іконки</string>
     <string name="category_drawer">Меню програм</string>
     <string name="category_misc">Інше</string>
+
+    <string name="pause">Призупинити</string>
+
+    <string name="floating_window">Плаваюче вікно</string>
 </resources>
