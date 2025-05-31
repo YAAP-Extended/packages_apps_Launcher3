@@ -236,6 +236,10 @@ public class AllAppsTransitionController
         getAppsViewProgressTranslationY().setValue(mProgress * shiftRange);
         mLauncher.onAllAppsTransition(1 - progress);
 
+        if (progress < 1.0f) {
+            mLauncher.getStateManager().getState().getDepth(mLauncher);
+        }
+
         boolean hasScrim = progress < NAV_BAR_COLOR_FORCE_UPDATE_THRESHOLD
                 && mLauncher.getAppsView().getNavBarScrimHeight() > 0;
         mLauncher.getSystemUiController().updateUiState(
